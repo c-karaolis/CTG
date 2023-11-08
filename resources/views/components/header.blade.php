@@ -11,7 +11,7 @@ background: linear-gradient(90deg, rgba(22,107,83,1) 0%, rgba(33,80,77,0.9837184
             <h1 {{-- color: aliceblue; --}}
                 class="text-3xl font-bold leading-10 tracking-tight text-left text-gray-900 md:text-center sm:text-4xl md:text-7xl lg:text-8xl ">
                 We Love Playing <br class="hidden sm:block"> Games On Tables</h1>
-            <div class="mx-auto mt-5 text-gray-400 md:mt-8 md:max-w-lg md:text-center md:text-xl">The most pationate
+            <div class="mx-auto mt-5 text-gray-400 md:mt-8 md:max-w-lg md:text-center md:text-xl">The most passionate
                 tabletop community that ever existed on the island of Cyprus!</div>
             <div
                 class="flex flex-col items-center justify-center mt-8 space-y-4 text-center sm:flex-row sm:space-y-0 sm:space-x-4">

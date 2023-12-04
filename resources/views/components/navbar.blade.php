@@ -24,7 +24,7 @@
 
                 <div
                     class="flex flex-col items-start justify-center w-full space-x-6 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
-                    <a href="#"
+                    <a href="/"
                         class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-black md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
                     <a href="#"
                         class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-black lg:mx-3 md:text-center">Sponsors</a>
@@ -38,8 +38,10 @@
                     class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
                     {{-- <a href="#" class="w-full px-6 py-2 mr-0 text-gray-700 md:px-3 md:mr-2 lg:mr-3 md:w-auto">Sign
                         In</a> --}}
-                    <a href="#"
-                        class="inline-flex items-center w-full px-5 px-6 py-3 text-sm font-medium leading-4  md:w-auto md:rounded-full text-[aliceblue] bg-sky-950 hover:text-sky-950 hover:bg-cyan-500 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-gray-800">Follow
+
+                    <a href="https://www.facebook.com/cyprustabletopgaming"
+                        class="inline-flex items-center w-full px-5 px-6 py-3 text-sm font-medium leading-4  md:w-auto md:rounded-full text-[aliceblue] bg-sky-950 hover:text-sky-950 hover:bg-cyan-500 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-gray-800"
+                        target="_blank">Follow
                         Us</a>
                 </div>
             </div>

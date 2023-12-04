@@ -5,8 +5,10 @@
             <div class="mt-4 sm:mt-0">
                 &copy; 2023 CTG All rights reserved.
             </div>
-            <div class="mt-6 sm:mt-0">
+            {{-- Social Media Logos --}}
+            <div class="mt-6 sm:mt-0" id="follow-us">
                 <ul class="flex items-center space-x-4">
+                    {{-- <li>Follow us:</li> --}}
                     <li class="w-10 h-10  rounded-full flex items-center justify-center">
                         <a href="https://twitter.com/The_CTG_Team" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"

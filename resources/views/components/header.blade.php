@@ -2,13 +2,13 @@
 {{-- background: rgb(22,107,83);
 background: linear-gradient(90deg, rgba(22,107,83,1) 0%, rgba(33,80,77,0.9837184873949579) 44%, rgba(30,127,173,1) 100%); --}}
 <section class="w-full px-6 pb-12 antialiased hero-background">
-    <div class="mx-auto max-w-7xl">
+    <div class="flex mx-auto max-w-7xl justify-center">
 
 
         <!-- Main Hero Content -->
         <div
-            class="container max-w-sm py-4 mx-auto mt-px text-left md:py-32 sm:max-w-md md:max-w-lg sm:px-4 md:max-w-none md:text-center">
-            <h1 {{-- color: aliceblue; --}}
+            class="container max-w-sm py-20 mx-auto mt-px text-left md:py-32 sm:max-w-md md:max-w-lg sm:px-4 md:max-w-none md:text-center">
+            <h1
                 class="text-3xl font-bold leading-10 tracking-tight text-left text-[aliceblue] md:text-center sm:text-4xl md:text-7xl lg:text-8xl ">
                 Let's play <br class="hidden sm:block">some games</h1>
             <div class="mx-auto mt-5 text-[aliceblue] md:mt-8 md:max-w-lg md:text-center md:text-xl">The most passionate
@@ -30,7 +30,22 @@ background: linear-gradient(90deg, rgba(22,107,83,1) 0%, rgba(33,80,77,0.9837184
         </div>
         <!-- End Main Hero Content -->
 
+
+        <div class="absolute self-end text-[aliceblue]  hover:text-cyan-500">
+            <a href="#MainContent">
+                <svg class="w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </a>
+
+
+            {{-- <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+                
+            </div> --}}
+        </div>
     </div>
+
 </section>
 
 <style>

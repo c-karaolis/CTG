@@ -1,6 +1,6 @@
 <x-app>
     <x-logo-section></x-logo-section>
-    <section class="max-w-[70%] mx-auto" id="MainContent">
+    <section class="max-w-[70%] mx-auto scroll-mt-32" id="MainContent">
         <div class="grid grid-cols-1 gap-4 p-8 lg:grid-cols-3 lg:gap-8 lg:gap-x-20">
 
             {{-- Board games --}}
@@ -18,8 +18,8 @@
                 :url="'/attractions/exhibitors'"></x-section-card>
 
             {{-- Open gaming area --}}
-            <x-section-card :title="'Open Gaming Area'" :excerpt="'This is a brief description of the open gaming area.'" :image="asset('images/card-images/opengamingarea-card-image.jpg')"
-                :url="'/attractions/open-gaming'"></x-section-card>
+            <x-section-card :title="'Open Gaming Area'" :excerpt="'This is a brief description of the open gaming area.'" :image="asset('images/card-images/opengamingarea-card-image.jpg')" :url="'/attractions/open-gaming'"
+                class="object-left-top"></x-section-card>
 
             {{-- Wargames / Miniatures --}}
             <x-section-card :title="'Miniature Wargames'" :excerpt="'This is a brief description of wargames and miniatures.'" :image="asset('images/card-images/miniaturewargames-card-image.jpg')"

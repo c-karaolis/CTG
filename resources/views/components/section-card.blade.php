@@ -3,7 +3,7 @@
     {{-- :src="$image" https://blogzine.webestica.com/assets/images/blog/4by3/01.jpg --}}
 
     <img alt="{{ $title }} section image" src="{{ $image }}"
-        {{ $attributes->merge(['class' => 'object-cover w-full aspect-[4/3] transform transition-all duration-300']) }}
+        {{ $attributes->merge(['class' => 'object-cover w-full aspect-[4/3] transform transition-all duration-300 transition-all']) }}
         :class="{ 'scale-110': isHovered }" />
 
     <h3 class="mt-4 text-lg font-bold sm:text-xl" :class="{ 'underline text-cyan-500': isHovered }">

@@ -1,1 +1,1 @@
-cxvbxcbxcbxcbx\
+<x-app></x-app>

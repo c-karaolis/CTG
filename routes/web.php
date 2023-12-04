@@ -13,25 +13,39 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Home
 Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/activities/board-games', function () {
-    return view('activities.board-games');
+// About
+Route::get('/about', function () {
+    return view('about');
 });
-Route::get('/activities/role-playing-games', function () {
-    return view('activities.role-playing-games');
-});
-Route::get('/activities/card-games', function () {
-    return view('activities.card-games');
-});
-Route::get('/activities/exhibitors', function () {
-    return view('activities.exhibitors');
-});
-Route::get('/activities/open-gaming', function () {
-    return view('activities.open-gaming');
-});
-Route::get('/activities/miniature-wargames', function () {
-    return view('activities.miniature-wargames');
+
+// Activities
+Route::prefix('/activities')->group(function () {
+    Route::get('/board-games', function () {
+        return view('activities.board-games');
+    });
+
+    Route::get('/role-playing-games', function () {
+        return view('activities.role-playing-games');
+    });
+
+    Route::get('/card-games', function () {
+        return view('activities.card-games');
+    });
+
+    Route::get('/exhibitors', function () {
+        return view('activities.exhibitors');
+    });
+
+    Route::get('/open-gaming', function () {
+        return view('activities.open-gaming');
+    });
+
+    Route::get('/miniature-wargames', function () {
+        return view('activities.miniature-wargames');
+    });
 });

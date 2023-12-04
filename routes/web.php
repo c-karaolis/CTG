@@ -17,21 +17,21 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/attractions/board-games', function () {
-    return view('attractions.board-games');
+Route::get('/activities/board-games', function () {
+    return view('activities.board-games');
 });
-Route::get('/attractions/role-playing-games', function () {
-    return view('attractions.role-playing-games');
+Route::get('/activities/role-playing-games', function () {
+    return view('activities.role-playing-games');
 });
-Route::get('/attractions/card-games', function () {
-    return view('attractions.card-games');
+Route::get('/activities/card-games', function () {
+    return view('activities.card-games');
 });
-Route::get('/attractions/exhibitors', function () {
-    return view('attractions.exhibitors');
+Route::get('/activities/exhibitors', function () {
+    return view('activities.exhibitors');
 });
-Route::get('/attractions/open-gaming', function () {
-    return view('attractions.open-gaming');
+Route::get('/activities/open-gaming', function () {
+    return view('activities.open-gaming');
 });
-Route::get('/attractions/miniature-wargames', function () {
-    return view('attractions.miniature-wargames');
+Route::get('/activities/miniature-wargames', function () {
+    return view('activities.miniature-wargames');
 });

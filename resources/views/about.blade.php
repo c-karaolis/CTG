@@ -5,8 +5,6 @@
                 class="container max-w-sm py-20 mx-auto mt-px text-left md:py-32 sm:max-w-md  sm:px-4 md:max-w-none md:text-center">
                 <img class="mx-auto" src="{{ asset('/images/CTGLogoWhite.svg') }}" alt="Cyprus Tabletop Gaming full logo">
             </div>
-
-
         </div>
 
     </section>

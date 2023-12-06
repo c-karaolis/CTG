@@ -1,16 +1,15 @@
 <x-app>
     <section class="w-full px-6 antialiased hero-background">
-        <div class="flex mx-auto max-w-7xl justify-center">
+        <div class="flex justify-center mx-auto max-w-7xl">
             <div
-                class="container max-w-sm py-20 mx-auto mt-px text-left md:py-32 sm:max-w-md  sm:px-4 md:max-w-none md:text-center">
+                class="container max-w-sm py-20 mx-auto mt-px text-left md:py-32 sm:max-w-md sm:px-4 md:max-w-none md:text-center">
                 <img class="mx-auto" src="{{ asset('/images/CTGLogoWhite.svg') }}" alt="Cyprus Tabletop Gaming full logo">
             </div>
         </div>
-
     </section>
 
     {{-- Article --}}
-    <article class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+    <article class="max-w-screen-md px-4 mx-auto mt-12 text-lg leading-relaxed text-gray-700 lg:px-0">
         <p class="pb-6">Cyprus Tabletop Gaming Festival is a non-profit, annual, dedicated tabletop event that unites
             designers, publishers, role-playing and board gaming enthusiasts, communities and consumers.
         </p>
@@ -31,7 +30,7 @@
             of the fun and exciting activities that are available for CTG’s visitors to participate in. Whether you are
             a seasoned veteran, or you've never rolled a die in your life, you are bound to have a great time!
         </p>
-        {{-- <div class="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
+        {{-- <div class="pl-4 mb-6 italic border-l-4 border-gray-500 rounded">
             Board games, role-playing games, tournaments, contests, playtesting and live presentations, are just a few
             of the fun and exciting activities that are available for CTG’s visitors to participate in. Whether you are
             a seasoned veteran, or you've never rolled a die in your life, you are bound to have a great time!
@@ -41,7 +40,7 @@
     </article>
 
     {{-- Team Section --}}
-    <section class="flex items-center bg-stone-100 xl:h-screen font-poppins bg-gray-800 ">
+    <section class="flex items-center bg-gray-800 bg-stone-100 xl:h-screen font-poppins ">
         <div class="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">
             <div class="mb-32 text-center">
                 <span
@@ -52,7 +51,7 @@
             </div>
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <div class="relative mb-20 lg:mb-0">
-                    <div class="overflow-hidden bg-white rounded shadow-md bg-gray-900 ">
+                    <div class="overflow-hidden bg-white bg-gray-900 rounded shadow-md ">
                         <div class="absolute flex justify-center w-full -mt-20 ">
                             <div class="w-32 h-32 ">
                                 <img class="object-cover w-full h-full rounded-full "
@@ -67,26 +66,26 @@
                             <p class="mb-4 text-base font-medium text-center text-blue-500 ">
                                 Co-Founder
                             </p>
-                            <p class="mb-4 text-base text-center  ">
+                            <p class="mb-4 text-base text-center ">
                                 Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet Lorem ipsum dolor sit
                                 amet, consectetur Lorem ipsum dolor sit amet
                             </p>
                             <div class="flex items-center justify-center ">
-                                <a class="inline-block mr-5 text-blue-800  hover:text-blue-600" href="#">
+                                <a class="inline-block mr-5 text-blue-800 hover:text-blue-600" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-facebook " viewBox="0 0 16 16">
                                         <path
                                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                                     </svg>
                                 </a>
-                                <a class="inline-block mr-5 text-blue-500  hover:text-blue-400" href="#">
+                                <a class="inline-block mr-5 text-blue-500 hover:text-blue-400" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-twitter" viewBox="0 0 16 16">
                                         <path
                                             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                                     </svg>
                                 </a>
-                                <a class="inline-block text-pink-600  hover:text-pink-500" href="#">
+                                <a class="inline-block text-pink-600 hover:text-pink-500" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-instagram" viewBox="0 0 16 16">
                                         <path
@@ -98,7 +97,7 @@
                     </div>
                 </div>
                 <div class="relative mb-20 md:mb-0">
-                    <div class="overflow-hidden bg-white rounded shadow-md bg-gray-900 ">
+                    <div class="overflow-hidden bg-white bg-gray-900 rounded shadow-md ">
                         <div class="absolute flex justify-center w-full -mt-20 ">
                             <div class="w-32 h-32 ">
                                 <img class="object-cover w-full h-full rounded-full "
@@ -112,26 +111,26 @@
                             <p class="mb-4 text-base font-medium text-center text-blue-500 ">
                                 Founder
                             </p>
-                            <p class="mb-4 text-base text-center  ">
+                            <p class="mb-4 text-base text-center ">
                                 Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet Lorem ipsum dolor sit
                                 amet, consectetur Lorem ipsum dolor sit amet
                             </p>
                             <div class="flex items-center justify-center ">
-                                <a class="inline-block mr-5 text-blue-800  hover:text-blue-600" href="#">
+                                <a class="inline-block mr-5 text-blue-800 hover:text-blue-600" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-facebook " viewBox="0 0 16 16">
                                         <path
                                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                                     </svg>
                                 </a>
-                                <a class="inline-block mr-5 text-blue-500  hover:text-blue-400" href="#">
+                                <a class="inline-block mr-5 text-blue-500 hover:text-blue-400" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-twitter" viewBox="0 0 16 16">
                                         <path
                                             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                                     </svg>
                                 </a>
-                                <a class="inline-block text-pink-600  hover:text-pink-500" href="#">
+                                <a class="inline-block text-pink-600 hover:text-pink-500" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-instagram" viewBox="0 0 16 16">
                                         <path
@@ -143,7 +142,7 @@
                     </div>
                 </div>
                 <div class="relative mb-20 md:mb-0">
-                    <div class="overflow-hidden bg-white rounded shadow-md bg-gray-900 ">
+                    <div class="overflow-hidden bg-white bg-gray-900 rounded shadow-md ">
                         <div class="absolute flex justify-center w-full -mt-20 ">
                             <div class="w-32 h-32 ">
                                 <img class="object-cover w-full h-full rounded-full "
@@ -158,26 +157,26 @@
                             <p class="mb-4 text-base font-medium text-center text-blue-500 ">
                                 Founder
                             </p>
-                            <p class="mb-4 text-base text-center  ">
+                            <p class="mb-4 text-base text-center ">
                                 Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet Lorem ipsum dolor sit
                                 amet, consectetur Lorem ipsum dolor sit amet
                             </p>
                             <div class="flex items-center justify-center ">
-                                <a class="inline-block mr-5 text-blue-800  hover:text-blue-600" href="#">
+                                <a class="inline-block mr-5 text-blue-800 hover:text-blue-600" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-facebook " viewBox="0 0 16 16">
                                         <path
                                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                                     </svg>
                                 </a>
-                                <a class="inline-block mr-5 text-blue-500  hover:text-blue-400" href="#">
+                                <a class="inline-block mr-5 text-blue-500 hover:text-blue-400" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-twitter" viewBox="0 0 16 16">
                                         <path
                                             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                                     </svg>
                                 </a>
-                                <a class="inline-block text-pink-600  hover:text-pink-500" href="#">
+                                <a class="inline-block text-pink-600 hover:text-pink-500" href="#">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                         fill="currentColor" class="w-6 h-6 bi bi-instagram" viewBox="0 0 16 16">
                                         <path

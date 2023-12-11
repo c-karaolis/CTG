@@ -11,7 +11,6 @@
                 {{ $name }}
             </h2>
             <p class="mb-4 text-base font-medium text-center text-blue-500 ">
-
                 {{ $role ?? 'Organiser' }}
             </p>
             <p class="mb-4 text-base text-center ">

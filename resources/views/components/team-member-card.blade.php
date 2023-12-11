@@ -1,5 +1,5 @@
 <div {{ $attributes->merge(['class' => 'relative mb-20 ']) }}>
-    <div class="overflow-hidden bg-white bg-gray-900 rounded shadow-md ">
+    <div class="overflow-hidden bg-white bg-gray-900 rounded shadow-md min-h-[312px]">
         <div class="absolute flex justify-center w-full -mt-20 ">
             <div class="w-32 h-32 ">
                 <img class="object-cover w-full h-full rounded-full image-fix" src="{{ $imageUrl }}"
@@ -14,7 +14,7 @@
                 {{ $role ?? 'Organiser' }}
             </p>
             <p class="mb-4 text-base text-center ">
-                {{ $description }}
+                {!! $description !!}
             </p>
             <div class="flex items-center justify-center ">
                 <a class="inline-block mr-5 text-blue-800 hover:text-blue-600" href="#">

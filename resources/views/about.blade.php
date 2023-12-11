@@ -9,8 +9,13 @@
         </div>
     </section>
 
+
     {{-- Article --}}
-    <article class="max-w-screen-md px-4 mx-auto mt-12 text-lg leading-relaxed text-gray-700 lg:px-0">
+    <article class="max-w-screen-md px-4 mx-auto mt-16 text-lg leading-relaxed text-gray-700 lg:px-0">
+        <h1 class="mb-8 text-3xl font-bold text-center lg:text-5xl text-sky-800">
+            About us
+        </h1>
+
         <p class="pb-6">Cyprus Tabletop Gaming Festival is a non-profit, annual, dedicated tabletop event that unites
             designers, publishers, role-playing and board gaming enthusiasts, communities and consumers.
         </p>
@@ -22,7 +27,8 @@
             explore their shared interests and discover new ones.
         </p>
 
-        <p class="pb-6">Tabletop games are enjoyed by young and old alike everywhere around the world and have recently
+        <p class="pb-6">Tabletop games are enjoyed by young and old alike everywhere around the world and have
+            recently
             exploded in popularity — yes, even here, in Cyprus!
         </p>
 

@@ -22,6 +22,11 @@ amet, consectetur Lorem ipsum dolor sit amet" }}
             {{-- CARD 5 --}}
             <x-team-member-card :name="'Crystal Michael'" :imageUrl="asset('images/team-members/amihanikos.jpg')" :description="$temp_description"></x-team-member-card>
 
+
+            {{-- CARD 6 --}}
+            <x-team-member-card :name="'Alejandro Nikolaou'" :role="'Co-+++ordinator'" :imageUrl="asset('images/team-members/amihanikos.jpg')"
+                :description="$temp_description"></x-team-member-card>
+
         </div>
     </div>
 </section>

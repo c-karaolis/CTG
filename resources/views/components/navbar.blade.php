@@ -4,7 +4,7 @@
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
             <a href="/" class="flex items-center py-4 space-x-2 font-extrabold text-sky-950 md:py-0">
                 <span class="flex items-center justify-center w-12 h-12 text-white rounded-full">
-                    <img src="{{ asset('/images/pathctg.svg') }}" alt="CTG dice logo" />
+                    <img src="{{ asset('/images/logos/pathctg.svg') }}" alt="CTG dice logo" />
                 </span>
                 <span class="font-[PriborgSans] text-3xl tracking-[2.8px]">CTG</span>
             </a>
@@ -17,7 +17,7 @@
                 <a href="#"
                     class="flex items-center py-4 ml-4 space-x-2 font-extrabold text-gray-900 md:py-0 md:hidden">
                     <span class="flex items-center justify-center w-8 h-8 text-white rounded-full">
-                        <img src = "images/pathctg.svg" alt="CTG dice logo" />
+                        <img src = "{{ asset('/images/logos/pathctg.svg') }}" alt="CTG dice logo" />
                     </span>
                     <span class="font-[PriborgSans] text-lg tracking-[2.8px]">CTG</span>
                 </a>

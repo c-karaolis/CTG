@@ -3,9 +3,8 @@
     <x-logo-section></x-logo-section>
     <section class="max-w-[70%] mx-auto scroll-mt-32" id="MainContent">
         <div class="grid grid-cols-1 gap-4 p-8 lg:grid-cols-3 lg:gap-8 lg:gap-x-20">
-
             {{-- Board games --}}
-            <x-section-card :title="'Board Games'" :excerpt="'This is a brief description of board games.'" :image="asset('images/card-images/boardgame-card-image.jpg')" :url="'/activities/board-games'"
+            <x-section-card :title="'Board Games'" :excerpt="'This is a brief description of board games.'" :image="asset('images/card-images/boardgames-card-image.jpg')" :url="'/activities/board-games'"
                 class="object-left-top"></x-section-card>
 
             {{-- RPGs --}}

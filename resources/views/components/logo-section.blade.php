@@ -7,32 +7,32 @@
             <ul class="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 md:gap-x-16">
                 <li>
                     <a href="https://onek.org.cy/" target="_blank">
-                        <img src="{{ asset('images/onek-logo.png') }}" alt="" width="164px">
+                        <img src="{{ asset('images/logos/onek-logo.png') }}" alt="" width="164px">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.alphamega.com.cy/" target="_blank">
-                        <img src="{{ asset('images/alphamega-logo.png') }}" alt="" width="164px">
+                        <img src="{{ asset('images/logos/alphamega-logo.png') }}" alt="" width="164px">
                     </a>
                 </li>
                 <li>
                     <a href="https://csicy.com/" target="_blank">
-                        <img src="{{ asset('images/csi-logo.png') }}" alt="" width="164px">
+                        <img src="{{ asset('images/logos/csi-logo.png') }}" alt="" width="164px">
                     </a>
                 </li>
                 <li>
                     <a href="https://cybc.com.cy/" target="_blank">
-                        <img src="{{ asset('images/rik-logo.png') }}" alt="" width="100px">
+                        <img src="{{ asset('images/logos/rik-logo.png') }}" alt="" width="100px">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.facebook.com/geekotopos/" target="_blank">
-                        <img src="{{ asset('images/geekotopos-logo.png') }}" alt="" width="94px">
+                        <img src="{{ asset('images/logos/geekotopos-logo.png') }}" alt="" width="94px">
                     </a>
                 </li>
                 <li>
                     <a href="https://engomi.org/" target="_blank">
-                        <img src="{{ asset('images/engomi-logo.png') }}" alt="" width="148px">
+                        <img src="{{ asset('images/logos/engomi-logo.png') }}" alt="" width="148px">
                     </a>
                 </li>
             </ul>

@@ -23,6 +23,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+// Contact
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 // Activities
 Route::prefix('/activities')->group(function () {
     Route::get('/board-games', function () {

@@ -21,9 +21,27 @@
 
                 {{-- OPEN GAMING PARAGRAPH --}}
                 <x-activities.paragraph>
-                    Open Gaming paragraph
+                    We get it, sometimes you just want to sit down and play your favourite game or the game you just
+                    bought! At our Open Gaming Area, there is ample seating space where guests can form their own groups
+                    to play games from their collection, or join impromptu gaming groups looking for more players.
+
                 </x-activities.paragraph>
 
+                <x-activities.paragraph>
+                    Open gaming is an excellent way to meet new like-minded people, make friends and immerse yourself in
+                    the communal aspect of tabletop gaming.
+
+
+                </x-activities.paragraph>
+
+                <x-activities.paragraph>
+                    Alternatively, playtesting one of the prototype games brought by local game designers is another
+                    great way to participate and contribute to the local tabletop gaming community. Refer to the
+                    Playtesting schedule for more information on the games being playtested and the time they will be
+                    showcased.
+
+
+                </x-activities.paragraph>
 
                 {{-- PLAYTESTING --}}
                 <x-activities.subtitle>

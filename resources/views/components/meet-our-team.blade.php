@@ -1,6 +1,75 @@
 @php
     $temp_description = "Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet Lorem ipsum dolor sit
 amet, consectetur Lorem ipsum dolor sit amet";
+
+    $teamMembers = [
+        [
+            'name' => 'Andonis Mihanikos',
+            'imageUrl' => asset('images/team-members/amihanikos.jpg'),
+            'description' => $temp_description,
+            'role' => 'Organiser',
+            'socials' => [
+                'Facebook' => 'https://www.facebook.com/andonis.mihanikos',
+                'Instagram' => 'https://www.instagram.com/andonis_mechanikos',
+            ],
+        ],
+        [
+            'name' => 'Andreas Panteli',
+            'imageUrl' => asset('images/team-members/apanteli.jpg'),
+            'description' => $temp_description,
+            'role' => 'Organiser',
+            'socials' => [
+                'Facebook' => 'https://www.facebook.com/andreas.panteli.7587',
+                'Instagram' => 'https://www.instagram.com/caym1988_surm666',
+                'LinkedIn' => 'https://www.linkedin.com/in/andreas-panteli-a54b06145',
+            ],
+        ],
+        [
+            'name' => 'Constantinos Karaolis',
+            'imageUrl' => asset('images/team-members/ckaraolis.jpg'),
+            'description' => $temp_description,
+            'role' => 'Organiser',
+            'socials' => [
+                'Facebook' => 'https://www.facebook.com/kostas.karaolis',
+                'Instagram' => 'https://www.instagram.com/ckaraolis',
+                'LinkedIn' => 'https://www.linkedin.com/in/constantinos-karaolis-03b0b8100',
+            ],
+        ],
+        [
+            'name' => 'Crystal Michael',
+            'imageUrl' => asset('images/team-members/cmichael.jpg'),
+            'description' => $temp_description,
+            'role' => 'Organiser',
+            'socials' => [
+                'Facebook' => 'https://www.facebook.com/crystal.michael.3',
+                'Instagram' => 'https://www.instagram.com/crystalmichael.me',
+                'LinkedIn' => 'https://www.linkedin.com/in/crystal-michael-532402143',
+            ],
+        ],
+        [
+            'name' => 'Frixos Masouras',
+            'imageUrl' => asset('images/team-members/fmasouras.png'),
+            'description' => $temp_description,
+            'role' => 'Organiser',
+            'socials' => [
+                'Facebook' => 'https://www.facebook.com/The.Equinox.Paradox',
+                'Instagram' => 'https://www.instagram.com/thefreaksauce',
+                'LinkedIn' => 'https://www.linkedin.com/in/frixos-masouras-14a225162',
+            ],
+        ],
+        [
+            'name' => 'Alejandro Nicolaou',
+            'imageUrl' => asset('images/team-members/anicolaou.jpg'),
+            'description' => $temp_description,
+            'role' => 'Coordinator',
+            'socials' => [
+                'Facebook' => 'https://www.facebook.com/alexandorsnicolaouR',
+                'Instagram' => 'https://www.instagram.com/rubixsoil',
+                'LinkedIn' => 'https://www.linkedin.com/in/alexandros-nicolaou-260809154',
+            ],
+        ],
+    ];
+
 @endphp
 
 
@@ -11,28 +80,11 @@ amet, consectetur Lorem ipsum dolor sit amet";
                 Meet The Team
             </h2>
         </div>
-
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
-            {{-- CARD 1 --}}
-            <x-team-member-card :name="'Andonis Mihanikos'" :imageUrl="asset('images/team-members/amihanikos.jpg')" :description="$temp_description"></x-team-member-card>
-
-            {{-- CARD 2 --}}
-            <x-team-member-card :name="'Andreas Panteli'" :imageUrl="asset('images/team-members/apanteli.jpg')" :description="$temp_description"></x-team-member-card>
-
-            {{-- CARD 3 --}}
-            <x-team-member-card :name="'Constantinos Karaolis'" :imageUrl="asset('images/team-members/ckaraolis.jpg')" :description="$temp_description"></x-team-member-card>
-
-            {{-- CARD 4 --}}
-            <x-team-member-card :name="'Crystal Michael'" :imageUrl="asset('images/team-members/cmichael.jpg')" :description="'Founder of Table Fables. Enjoys cooperative board games and roleplaying games. Loves the Burning Wheel RPG and burning characters. <br>Cat person and coffee lover.'"></x-team-member-card>
-
-            {{-- CARD 5 --}}
-            <x-team-member-card :name="'Frixos Masouras'" :imageUrl="asset('images/team-members/fmasouras.png')" :description="$temp_description"></x-team-member-card>
-
-
-            {{-- CARD 6 --}}
-            <x-team-member-card :name="'Alejandro Nikolaou'" :role="'Coordinator'" :imageUrl="asset('images/team-members/amihanikos.jpg')"
-                :description="$temp_description"></x-team-member-card>
-
+            @foreach ($teamMembers as $teamMember)
+                <x-team-member-card :name="$teamMember['name']" :imageUrl="$teamMember['imageUrl']" :description="$teamMember['description']" :role="$teamMember['role']"
+                    :socials="$teamMember['socials']"></x-team-member-card>
+            @endforeach
         </div>
     </div>
 </section>

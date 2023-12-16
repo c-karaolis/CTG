@@ -10,7 +10,7 @@
             </div>
         </div>
     </section>
-    <section class="pt-16 pb-20 mt-14">
+    <section class="pt-16 pb-20">
         <div class="max-w-3xl px-4 mx-auto text-center">
             <x-activities.title>
                 Board Games

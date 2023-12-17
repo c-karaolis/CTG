@@ -1,7 +1,6 @@
 @php
     $temp_description = "Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet Lorem ipsum dolor sit
 amet, consectetur Lorem ipsum dolor sit amet";
-
     $teamMembers = [
         [
             'name' => 'Andonis Mihanikos',
@@ -16,7 +15,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
         [
             'name' => 'Andreas Panteli',
             'imageUrl' => asset('images/team-members/apanteli.jpg'),
-            'description' => $temp_description,
+            'description' => 'Founder of Table Fables. Dungeon Master that has great love for story telling, board and roleplaying games and an unnatural love for dad jokes.',
             'role' => 'Organiser',
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/andreas.panteli.7587',
@@ -69,9 +68,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
             ],
         ],
     ];
-
 @endphp
-
 
 <section class="flex items-center mt-8 bg-slate-100 font-poppins">
     <div class="justify-center flex-1 px-4 py-6 mx-auto max-w-7xl lg:py-4 md:px-6">

@@ -1,3 +1,48 @@
+@php
+    $faqs = [
+        [
+            'question' => 'What kind of games are played at CTG?',
+            'answer' => "At Cyprus Tabletop Gaming, we play all kinds of tabletop games, from classic family board games, to complex strategy games, roleplaying games, miniature wargames, trading card games and social party games. Whether you're a seasoned veteran, or completely new to the world of tabletop gaming, we guarantee you'll find something you enjoy and the right company to enjoy it with!",
+        ],
+        [
+            'question' => 'How much do tickets cost and where can I purchase a ticket?',
+            'answer' => 'Entry tickets to Cyprus Tabletop Gaming cost 5 euros per person. Children under 12 years old can attend for free when accompanied by an adult guardian. Currently tickets are only sold at the door. Upon payment, you will receive a wristband ticket which you will have to wear during your entire stay at the convention.',
+        ],
+        [
+            'question' => 'May I bring my own board games?',
+            'answer' => "Of course! Although there will be an extensive collection of tabletop games available to play from CTG's library, you are welcome to bring and play any of your own favourite games. Our Open Gaming Area has ample seating space exclusively reserved for open gaming, where you can join or form impromptu game groups.",
+        ],
+        [
+            'question' => 'Is the venue accessible to wheelchair users?',
+            'answer' => "Yes, the venue for CTG'2024 is fully accessible to wheelchair users. If you have any specific accessibility requirements, or concerns, please do not hesitate to contact us.",
+        ],
+        [
+            'question' => 'Is there parking at the venue?',
+            'answer' => 'Our venue has free parking available for all attendees, with over 100 parking slots available on a first-come first-served basis, including several priority handicap parking slots.',
+        ],
+        [
+            'question' => 'What kind of food and drink is available at the convention?',
+            'answer' => "A wide selection of different food and drink choices to satisfy every palate will be available at CTG'2024, including vegetarian and vegan options. Only food and drink purchased at the venue may be consumed in the Food Court area.",
+        ],
+        [
+            'question' => 'Are children welcome at the convention?',
+            'answer' => 'Absolutely, as a family-friendly convention, Cyprus Tabletop Gaming welcomes tabletop gamers of all ages. Children 12 and under can attend for free, however we do ask that accompanying adults take full responsibility for their children throughout the event. Families with young children can enjoy age-appropriate games at the specially designed Family Zone.',
+        ],
+        [
+            'question' => 'How do I become a Volunteer?',
+            'answer' => 'We are always looking for passionate volunteers to help make Cyprus Tabletop Gaming a great convention. Our event’s success greatly depends on the hard work and dedication of our volunteers, who help provide the best experience for visitors and participants alike. <br><br> Being a volunteer can be a fun and fulfilling way to enrich one’s resume, contribute to the local community, make great memories and build friendships with like-minded people. Volunteers receive complimentary access to the event, the official CTG Volunteer T-shirt, meal tickets and refreshments to enjoy during their shift or after, and when off duty, they can sit down and play some games! <br><br>If you are interested in becoming a volunteer for CTG\'2024 email us at <a class="text-blue-500"href="mailto:the.ctg.team@gmail.com">the.ctg.team@gmail.com</a>.',
+        ],
+        [
+            'question' => 'How do I apply as an exhibitor?',
+            'answer' => 'Online applications for Cyprus Tabletop Gaming 2024 will open soon. Booths of varying sizes will be made available for vendors, game designers and publishers, subject to availability and space restrictions.',
+        ],
+        [
+            'question' => "I'm a board game designer/publisher. How do I make sure that my game is in your library?",
+            'answer' => 'We are always happy to support upcoming game designers and help to promote new titles. You may send copies of your game to include in our library, or to be used in competitions or giveaways. Please contact us at <a class="text-blue-500"href="mailto:the.ctg.team@gmail.com">the.ctg.team@gmail.com</a> for further details.',
+        ],
+    ];
+
+@endphp
 <x-app>
     <section class="w-full px-6 antialiased hero-background">
         <div class="flex justify-center mx-auto max-w-7xl">
@@ -79,10 +124,24 @@
             </ul>
         </div>
 
-        <p class="pb-6">We look forward to hearing from you and welcoming you again to Cyprus Tabletop Gaming 2024!
+        <p class="pb-6">We look forward to hearing from you and welcoming you again to CTG 2024!
         </p>
 
     </article>
+
+    <section>
+        <div class="max-w-screen-md mx-auto mt-16 space-y-4">
+            <div class="text-center">
+                <x-activities.subtitle>Frequently Asked Questions</x-activities.subtitle>
+
+            </div>
+
+            @foreach ($faqs as $faq)
+                <x-faq-item :question="$faq['question']" :answer="$faq['answer']"></x-faq-item>
+            @endforeach
+
+        </div>
+    </section>
 </x-app>
 <style>
     .hero-background {

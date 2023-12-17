@@ -5,7 +5,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
         [
             'name' => 'Andonis Mihanikos',
             'imageUrl' => asset('images/team-members/amihanikos.jpg'),
-            'description' => 'Founder of Imagination Gaming Cyprus. Passionate about board games, miniatures painting, RPGs, tournaments. Loves to interact with people. His moto: “Do it with love!”',
+            'description' => 'Founder of Imagination Gaming Cyprus. Passionate about board games, miniatures painting, RPGs, tournaments. Loves to interact with people. His motto: “Do it with love!”',
             'role' => 'Organiser',
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/andonis.mihanikos',

@@ -27,7 +27,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
         [
             'name' => 'Constantinos Karaolis',
             'imageUrl' => asset('images/team-members/ckaraolis.jpg'),
-            'description' => $temp_description,
+            'description' => 'Founder of Table Fables. Benevolent Dungeon Master. Loves board games and RPGs. Passionate about game design and software engineering. Proud cat dad.',
             'role' => 'Organiser',
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/kostas.karaolis',
@@ -38,7 +38,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
         [
             'name' => 'Crystal Michael',
             'imageUrl' => asset('images/team-members/cmichael.jpg'),
-            'description' => $temp_description,
+            'description' => 'Founder of Table Fables. Enjoys cooperative board games and roleplaying games. Loves the Burning Wheel RPG and burning characters. <br> Cat person and coffee lover.',
             'role' => 'Organiser',
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/crystal.michael.3',
@@ -49,7 +49,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
         [
             'name' => 'Frixos Masouras',
             'imageUrl' => asset('images/team-members/fmasouras.png'),
-            'description' => $temp_description,
+            'description' => 'A published author, screenwriter and playwright who Mastered Dungeons since 1994. Enjoys anything that involves shuffling decks, rolling dice, role-playing and his three cats.',
             'role' => 'Organiser',
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/The.Equinox.Paradox',
@@ -60,7 +60,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
         [
             'name' => 'Alejandro Nicolaou',
             'imageUrl' => asset('images/team-members/anicolaou.jpg'),
-            'description' => $temp_description,
+            'description' => 'TCG and RPG lover. Certified Judge 1 Yu-Gi-Oh! and Rules Advisor for MTG. Thrives  on the thrill of competitive and challenging games.',
             'role' => 'Coordinator',
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/alexandorsnicolaouR',

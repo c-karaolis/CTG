@@ -31,7 +31,8 @@
 
 
                     @if ($name === 'facebook')
-                        <a class="inline-block mr-5 text-blue-800 hover:text-blue-600" href="{{ $url }}">
+                        <a class="inline-block mr-5 text-blue-800 hover:text-blue-600" href="{{ $url }}"
+                            target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="w-6 h-6" viewBox="0 0 16 16">
                                 <path
@@ -40,7 +41,8 @@
                         </a>
                     @endif
                     @if ($name === 'instagram')
-                        <a class="inline-block mr-5 text-pink-600 hover:text-pink-500" href="{{ $url }}">
+                        <a class="inline-block mr-5 text-pink-600 hover:text-pink-500" href="{{ $url }}"
+                            target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="w-6 h-6" viewBox="0 0 16 16">
                                 <path
@@ -49,13 +51,16 @@
                         </a>
                     @endif
                     @if ($name === 'linkedin')
-                        <a class="inline-block text-blue-600 hover:text-blue-400" href="{{ $url }}">
+                        <a class="inline-block text-blue-600 hover:text-blue-400" href="{{ $url }}"
+                            target="_blank">
 
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="w-6 h-6" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="72" viewBox="0 0 72 72" width="72"
+                                class="w-6 h-6" fill="currentColor">
                                 <path
-                                    d="M8.293,9.762l0,8.895l-2.728,0l0,-8.895l2.728,0Zm4.317,1.199l-0.002,-1.197l-2.459,-0.002l0,8.895l2.729,0l0,-4.833c0,-1.349 0.946,-1.845 1.635,-1.845c1.084,0 1.462,0.863 1.462,1.949l0,4.729l2.642,0l0,-5.447c0,-2.491 -1.496,-3.624 -3.25,-3.624c-1.393,-0.016 -2.3,0.72 -2.73,1.375l-0.027,0Zm-5.681,-5.618c0.853,0 1.546,0.693 1.546,1.546c0,0.853 -0.693,1.546 -1.546,1.546c-0.853,0 -1.546,-0.693 -1.546,-1.546c0,-0.853 0.693,-1.546 1.546,-1.546Z"
-                                    style="fill:#fff;fill-rule:nonzero;" />
+                                    d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z" />
+                                <path
+                                    d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z"
+                                    fill="#FFF" />
                             </svg>
                         </a>
                     @endif

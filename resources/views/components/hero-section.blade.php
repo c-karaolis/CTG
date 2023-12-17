@@ -10,7 +10,7 @@
                 Let's play <br class="hidden sm:block">some games</h1>
             <div class="mx-auto mt-5 text-[aliceblue] md:mt-8 md:max-w-lg md:text-center md:text-xl">
                 {{-- The most passionate tabletop community that ever existed on the island of Cyprus! --}}
-                Cyprus' first exclusive tabletop gaming convention!
+                Cyprus' first dedicated tabletop gaming convention!
             </div>
             <div
                 class="flex flex-col items-center justify-center mt-8 space-y-4 text-center sm:flex-row sm:space-y-0 sm:space-x-4">

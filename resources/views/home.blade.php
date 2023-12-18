@@ -9,7 +9,7 @@
 
             {{-- RPGs --}}
             <x-section-card :title="'Roleplaying Games'" :excerpt="'Engage in creative, collaborative storytelling, by assuming the role of a fantasy character and going on an epic adventure!
-                                                                                                                                                                        '" :image="asset('images/card-images/roleplayinggames-card-image.jpg')" :url="'/activities/role-playing-games'"></x-section-card>
+                                                                                                                                                                                                '" :image="asset('images/card-images/roleplayinggames-card-image.jpg')" :url="'/activities/role-playing-games'"></x-section-card>
 
             {{-- TCGs --}}
             <x-section-card :title="'Trading Card Games'" :excerpt="'Learn to play or test your luck of the draw and your deck-building skills in casual matches and tournaments.'" :image="asset('images/card-images/tradingcardgames-card-image.jpg')" :url="'/activities/card-games'"></x-section-card>
@@ -19,7 +19,7 @@
                 :url="'/activities/exhibitors'"></x-section-card>
 
             {{-- Open gaming area --}}
-            <x-section-card :title="'Open Gaming Area'" :excerpt="'Relax, sit down and play at your own pace, making new friends along the way.'" :image="asset('images/card-images/opengamingarea-card-image.jpg')" :url="'/activities/open-gaming'"
+            <x-section-card :title="'Open Gaming Area / Playtesting'" :excerpt="'Relax, sit down and play at your own pace, making new friends along the way. Playtest game prototypes before they are published.'" :image="asset('images/card-images/opengamingarea-card-image.jpg')" :url="'/activities/open-gaming'"
                 class="object-left-top"></x-section-card>
 
             {{-- Wargames / Miniatures --}}

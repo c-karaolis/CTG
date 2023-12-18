@@ -38,12 +38,12 @@
                     play.</x-activities.paragraph>
 
                 {{-- <div class="mt-12 mb-6" style="text-align: -webkit-center;"><img class="w-40"
-                        src="/images/logos/ImaginationGamingLogo.png" alt=""></div> --}}
+                        src="/images/logos/ImaginationGamingLogo.jpg" alt=""></div> --}}
 
                 {{-- FAMILY ZONE --}}
                 <div class="mt-12 mb-6" style="text-align: -webkit-center;"><a
                         href="https://imaginationgaming.co.uk/andonis-mihanikos/" target="_blank" class="block w-40"><img
-                            class="w-40" src="/images/logos/ImaginationGamingLogo.png" alt=""></a></div>
+                            class="w-40" src="/images/logos/ImaginationGamingLogo.jpg" alt=""></a></div>
                 <x-activities.subtitle class="">
                     Family Zone
                 </x-activities.subtitle>

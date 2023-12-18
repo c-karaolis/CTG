@@ -1,6 +1,4 @@
 @php
-    $temp_description = "Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet Lorem ipsum dolor sit
-amet, consectetur Lorem ipsum dolor sit amet";
     $teamMembers = [
         [
             'name' => 'Andonis Mihanikos',

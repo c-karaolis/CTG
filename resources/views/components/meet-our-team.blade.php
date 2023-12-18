@@ -23,7 +23,7 @@
         ],
         [
             'name' => 'Constantinos Karaolis',
-            'imageUrl' => asset('images/team-members/ckaraolis.jpg'),
+            'imageUrl' => asset('images/team-members/ckaraolis.png'),
             'description' => 'Founder of Table Fables. Benevolent Dungeon Master. Loves board games and RPGs. Passionate about game design and software engineering. Proud cat dad.',
             'role' => 'Organiser',
             'socials' => [

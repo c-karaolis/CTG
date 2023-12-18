@@ -17,7 +17,7 @@
             </x-activities.title>
 
             <div class="mt-12 mb-6" style="text-align: -webkit-center;"><a
-                    href="https://www.facebook.com/groups/tablefables/" target="_blank" class="block w-96"><img
+                    href="https://www.facebook.com/groups/tablefables/" target="_blank" class="block max-w-96"><img
                         class="w-96" src="/images/logos/Full-TFLogo-TransparentBackground.png" alt=""></a>
             </div>
             <x-activities.article>

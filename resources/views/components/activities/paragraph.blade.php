@@ -1,2 +1,2 @@
-<p class="mb-6 text-lg text-justify">
+<p class="mb-6 text-lg text-left">
     {{ $slot }}</p>

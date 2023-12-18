@@ -20,7 +20,7 @@ amet, consectetur Lorem ipsum dolor sit amet";
             'socials' => [
                 'Facebook' => 'https://www.facebook.com/andreas.panteli.7587',
                 'Instagram' => 'https://www.instagram.com/caym1988_surm666',
-                'LinkedIn' => 'https://www.linkedin.com/in/andreas-panteli-a54b06145',
+                // 'LinkedIn' => 'https://www.linkedin.com/in/andreas-panteli-a54b06145',
             ],
         ],
         [

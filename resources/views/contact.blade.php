@@ -6,7 +6,7 @@
         ],
         [
             'question' => 'How much do tickets cost and where can I purchase a ticket?',
-            'answer' => 'Entry tickets to Cyprus Tabletop Gaming cost 5 euros per person. Children under 12 years old can attend for free when accompanied by an adult guardian. Currently tickets are only sold at the door. Upon payment, you will receive a wristband ticket which you will have to wear during your entire stay at the convention.',
+            'answer' => 'Entry tickets to Cyprus Tabletop Gaming cost 8 euros per person. Children under 12 years old can attend for free when accompanied by an adult guardian. Currently tickets are only sold at the door. Upon payment, you will receive a wristband ticket which you will have to wear during your entire stay at the convention.',
         ],
         [
             'question' => 'May I bring my own board games?',

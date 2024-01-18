@@ -12,7 +12,7 @@
 
                 <ul class="flex items-center space-x-4">
                     <li>
-                        <a href="/terms-and-policies" target="_blank">Terms and Policies</a>
+                        <a href="/terms-and-policies">Terms and Policies</a>
                     </li>
                     {{-- <li>Follow us:</li> --}}
                     <li class="flex items-center justify-center w-10 h-10 rounded-full">

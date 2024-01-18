@@ -28,6 +28,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+// Terms & Policies
+Route::get('/terms-and-policies', function () {
+    return view('terms-and-policies');
+});
 // Activities
 Route::prefix('/activities')->group(function () {
     Route::get('/board-games', function () {
@@ -54,3 +58,4 @@ Route::prefix('/activities')->group(function () {
         return view('activities.miniature-wargames');
     });
 });
+

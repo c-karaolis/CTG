@@ -1,15 +1,21 @@
 <div x-data="footerComponent()">
-    <footer class="text-gray-500 bg-white px-4 py-5 max-w-screen-xl mx-auto md:px-8">
+    <footer class="max-w-screen-xl px-4 py-5 mx-auto text-gray-500 bg-white md:px-8">
 
-        <div class="mt-8 py-6 border-t items-center justify-between sm:flex">
+        <div class="items-center justify-between py-6 mt-8 border-t sm:flex">
+            {{-- LEFT --}}
             <div class="mt-4 sm:mt-0">
                 &copy; 2023 CTG All rights reserved.
             </div>
+            {{-- RIGHT --}}
             {{-- Social Media Logos --}}
             <div class="mt-6 sm:mt-0" id="follow-us">
+
                 <ul class="flex items-center space-x-4">
+                    <li>
+                        <a href="/terms-and-policies" target="_blank">Terms and Policies</a>
+                    </li>
                     {{-- <li>Follow us:</li> --}}
-                    <li class="w-10 h-10  rounded-full flex items-center justify-center">
+                    <li class="flex items-center justify-center w-10 h-10 rounded-full">
                         <a href="https://twitter.com/The_CTG_Team" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48"
                                 viewBox="0 0 48 48">
@@ -19,7 +25,7 @@
                             </svg> </a>
                     </li>
 
-                    <li class="w-10 h-10  rounded-full flex items-center justify-center">
+                    <li class="flex items-center justify-center w-10 h-10 rounded-full">
                         <a href="https://www.facebook.com/cyprustabletopgaming" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="42" height="42"
                                 viewBox="0 0 48 48">
@@ -31,7 +37,7 @@
                         </a>
                     </li>
 
-                    <li class="w-10 h-10  rounded-full flex items-center justify-center">
+                    <li class="flex items-center justify-center w-10 h-10 rounded-full">
                         <a href="https://www.instagram.com/cyprustabletopgaming/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="42" height="42"
                                 viewBox="0 0 48 48">

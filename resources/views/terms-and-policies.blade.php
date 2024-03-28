@@ -1,15 +1,4 @@
 <x-app>
-
-    <section class="w-full px-6 antialiased hero-background">
-        <div class="flex justify-center mx-auto max-w-7xl">
-            <div
-                class="container max-w-sm py-20 mx-auto mt-px text-left md:py-32 sm:max-w-md sm:px-4 md:max-w-none md:text-center">
-                <img class="mx-auto" src="{{ asset('/images/logos/CTGLogoWhite.svg') }}"
-                    alt="Cyprus Tabletop Gaming full logo">
-            </div>
-        </div>
-    </section>
-
     {{-- Article --}}
     <article class="max-w-screen-md px-4 mx-auto mt-16 text-lg leading-relaxed text-gray-700 lg:px-0">
         <h1 class="mb-8 text-3xl font-bold text-center lg:text-5xl text-sky-800">

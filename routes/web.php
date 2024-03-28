@@ -59,3 +59,7 @@ Route::prefix('/activities')->group(function () {
     });
 });
 
+// Exhibitors
+Route::get('/exhibitors', function () {
+    return view('exhibitors');
+});

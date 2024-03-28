@@ -1,6 +1,5 @@
 <x-app>
-    <x-activities.header></x-activities.header>
-    <section class="pt-16 pb-20">
+    <section class="pt-16">
         <div class="max-w-3xl px-4 mx-auto text-center">
             <x-activities.title>
                 Roleplaying Games
@@ -22,6 +21,8 @@
                     maths skills. Additionally, tabletop RPGs encourage and develop teamwork and provide a safe
                     environment for children and adults alike to combat their shyness and improve their social
                     skills.</x-activities.paragraph>
+                <img src="/images/activities/roleplayinggames-page-image.jpg" alt="Role Playing section photo"
+                    class="mb-6">
                 <x-activities.paragraph>
                     At Cyprus Tabletop Gaming Festival, guests can enjoy learning and playing popular
                     tabletop RPGs such as Dungeons and Dragons, in a safe and inclusive space, with the

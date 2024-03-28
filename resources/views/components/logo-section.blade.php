@@ -4,10 +4,15 @@
             SUPPORTED BY
         </h3>
         <div class="mt-6">
-            <ul class="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 md:gap-x-16">
+            <ul class="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 md:gap-x-10">
+                <li>
+                    <a href="https://www.multiverslimassol.com/" target="_blank">
+                        <img src="{{ asset('images/logos/multivers-logo.png') }}" alt="" width="140px">
+                    </a>
+                </li>
                 <li>
                     <a href="https://onek.org.cy/" target="_blank">
-                        <img src="{{ asset('images/logos/onek-logo.png') }}" alt="" width="164px">
+                        <img src="{{ asset('images/logos/onek-logo.png') }}" alt="" width="136px">
                     </a>
                 </li>
                 <li>
@@ -18,12 +23,12 @@
 
                 <li>
                     <a href="https://antcomics.com.cy/" target="_blank">
-                        <img src="{{ asset('images/logos/antcomics-logo.png') }}" alt="" width="140px">
+                        <img src="{{ asset('images/logos/antcomics-logo.png') }}" alt="" width="132px">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.uol.ac.cy/" target="_blank">
-                        <img src="{{ asset('images/logos/uol-logo.svg') }}" alt="" width="148px">
+                        <img src="{{ asset('images/logos/uol-logo.svg') }}" alt="" width="136px">
                     </a>
                 </li>
 

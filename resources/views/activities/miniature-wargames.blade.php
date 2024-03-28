@@ -1,6 +1,5 @@
 <x-app>
-    <x-activities.header></x-activities.header>
-    <section class="pt-16 pb-20">
+    <section class="pt-16">
         <div class="max-w-3xl px-4 mx-auto text-center">
 
             <x-activities.title>
@@ -25,8 +24,8 @@
                     compete in skirmish battles against skilled opponents, and learn advanced painting techniques and
                     tips from experienced painters, for creating stunning miniatures.
                 </x-activities.paragraph>
-
             </x-activities.article>
+            <img src="/images/activities/miniaturewargames-page-image2.jpg" alt="Wargaming section photo" class="mb-6">
         </div>
         </div>
     </section>

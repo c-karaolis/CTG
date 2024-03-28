@@ -1,6 +1,5 @@
 <x-app>
-    <x-activities.header></x-activities.header>
-    <section class="pt-16 pb-20">
+    <section class="pt-16">
         <div class="max-w-3xl px-4 mx-auto text-center">
 
             <x-activities.title>
@@ -26,7 +25,7 @@
                     Furthermore, at CTG, publishers can network with designers, retailers and other industry
                     professionals, forging lasting partnerships and collaborations.
                 </x-activities.paragraph>
-
+                <img src="/images/activities/exhibitors-page-image.jpg" alt="Board Games section photo">
                 <x-activities.subtitle class="mt-12"> Shops</x-activities.subtitle>
 
                 <x-activities.paragraph>
@@ -45,6 +44,7 @@
                     Every single game box contains a unique and exciting adventure, ready to be explored.
                 </x-activities.paragraph>
             </x-activities.article>
+            <img src="/images/activities/shops-page-image.jpg" alt="Board Games section photo">
         </div>
         </div>
     </section>

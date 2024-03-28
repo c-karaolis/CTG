@@ -1,5 +1,5 @@
-<div x-data="footerComponent()">
-    <footer class="max-w-screen-xl px-4 py-5 mx-auto text-gray-500 bg-white md:px-8">
+<div x-data="footerComponent()" class="w-full mt-auto">
+    <footer class="w-full max-w-screen-xl px-4 py-5 mx-auto text-gray-500 bg-white md:px-8">
 
         <div class="items-center justify-between py-6 mt-8 border-t sm:flex">
             {{-- LEFT --}}
